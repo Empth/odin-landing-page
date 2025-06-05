@@ -80,18 +80,18 @@ body {
     margin: auto;
 }
 
-button, button a{
+button {
     box-sizing: border-box;
-    padding: 5px;
+    padding: 0px;
     background-color: #3882F6;
     border: 0px;
-    color: #F9FAF8;
     font-size: 16px;
     width: 110px;
     height: 30px;
     border-radius: 5px;
     font-weight: 800;
-    text-decoration: none;
+    color: #F9FAF8;
+    
 }
 
 .second-content {
@@ -159,9 +159,52 @@ h2 {
     margin: 0;
 }
 
-.third-content .boundary .author{
+.third-content .boundary .author {
     font-size: 20px;
     font-weight: 800;
     align-self: flex-end;
     margin: 0;
+}
+
+.fourth-content {
+    height: 250px;
+    margin: auto;
+}
+
+.fourth-content .boundary {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 100px;
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 12px;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.fourth-content .boundary button.fourth{
+    border: 1.5px solid #F9FAF8;
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 140px;
+    height: 35px;
+}
+
+.fourth-content .boundary .fourth-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.fourth-item h4 {
+    margin: 0px;
+    width: 500px;
+}
+
+.fourth-content .boundary .fourth-item p {
+    width: 500px;
+    margin: 0px;
 }
